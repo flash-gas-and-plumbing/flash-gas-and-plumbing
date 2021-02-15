@@ -178,9 +178,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _PopUpBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PopUpBox */ "./client/components/PopUpBox.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form */ "./client/components/Form.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Form__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -191,17 +188,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 
 
@@ -217,12 +210,6 @@ function (_React$Component) {
     _classCallCheck(this, AboutNav);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(AboutNav).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "contactForm", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "./img/logo-number.png",
-      className: "formImage centerImg"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form__WEBPACK_IMPORTED_MODULE_3___default.a, null)));
-
     _this.state = {
       popUpContent: null
     };
@@ -242,8 +229,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "navBackground"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -262,14 +247,14 @@ function (_React$Component) {
         src: "./img/about-1.png",
         alt: "About logo",
         className: "navLogoPage"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: function onClick() {
-          return _this2.togglePopup(_this2.contactForm);
-        },
-        src: "./img/contact us.png",
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.jotform.com/form/210036267796864",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogos"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "navLogoPage"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/gallery.png",
@@ -281,11 +266,7 @@ function (_React$Component) {
         src: "./img/testimonials.png",
         alt: "Testimonials logo",
         className: "navLogos"
-      })))), this.state.popUpContent !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopUpBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        togglePopup: function togglePopup() {
-          return _this2.togglePopup(null);
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.contactForm)));
+      })))));
     }
   }]);
 
@@ -684,10 +665,10 @@ function (_React$Component) {
       }), " ")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "copyrightText"
       }, "Copyright \xA9 Flash Gas and Plumbing. All rights reserved.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.phearnoc.com",
+        href: "https://github.com/matthew-devonport",
         target: "_blank",
         className: "matty"
-      }, "Website Design & Build by PHEARNOC Digital")))));
+      }, "Website Design & Build by Matthew Devonport")))));
     }
   }]);
 
@@ -695,17 +676,6 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./client/components/Form.jsx":
-/*!************************************!*\
-  !*** ./client/components/Form.jsx ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\web\\Flash-gas-and-plumbing\\client\\components\\Form.jsx: Unexpected token (63:4)\n\n  61 | \n  62 |     } else \n> 63 |     {\n     |     ^\n  64 |       alert(\"Please verify that you are a human!\")\n  65 |     }\n  66 |     }\n    at Object.raise (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:3851:17)\n    at Object.unexpected (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:5167:16)\n    at Object.parseIdentifierName (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7007:18)\n    at Object.parseIdentifier (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:6985:23)\n    at Object.parseMaybePrivateName (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:6350:19)\n    at Object.parsePropertyName (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:6806:98)\n    at Object.parseClassPropertyName (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8237:22)\n    at Object.parseClassMemberWithIsStatic (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8158:22)\n    at Object.parseClassMember (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8128:10)\n    at D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8083:14\n    at Object.withTopicForbiddingContext (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7185:14)\n    at Object.parseClassBody (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8060:10)\n    at Object.parseClass (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8034:22)\n    at Object.parseStatementContent (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7333:21)\n    at Object.parseStatement (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7291:17)\n    at Object.parseBlockOrModuleBlockBody (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7868:25)\n    at Object.parseBlockBody (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7855:10)\n    at Object.parseTopLevel (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:7220:10)\n    at Object.parse (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:8863:17)\n    at parse (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\parser\\lib\\index.js:11135:38)\n    at parser (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:170:34)\n    at normalizeFile (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:138:11)\n    at runSync (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\core\\lib\\transformation\\index.js:44:43)\n    at runAsync (D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\core\\lib\\transformation\\index.js:35:14)\n    at D:\\web\\Flash-gas-and-plumbing\\node_modules\\@babel\\core\\lib\\transform.js:34:34\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
 
 /***/ }),
 
@@ -748,52 +718,52 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var images = [{
   id: 1,
-  thumbnail: "../server/img/gallery/1-1.jpg",
-  fullSize: "/flashgas/img/gallery/1-2.jpg"
+  thumbnail: "/img/gallery/1-1.jpg",
+  fullSize: "/img/gallery/1-2.jpg"
 }, {
   id: 2,
-  thumbnail: "/flashgas/img/gallery/2-1.jpg",
-  fullSize: "/flashgas/img/gallery/2-2.jpg"
+  thumbnail: "/img/gallery/2-1.jpg",
+  fullSize: "/img/gallery/2-2.jpg"
 }, {
   id: 3,
-  thumbnail: "/flashgas/img/gallery/3-1.jpg",
-  fullSize: "/flashgas/img/gallery/3-2.jpg"
+  thumbnail: "/img/gallery/3-1.jpg",
+  fullSize: "/img/gallery/3-2.jpg"
 }, {
   id: 4,
-  thumbnail: "/flashgas/img/gallery/4-1.jpg",
-  fullSize: "/flashgas/img/gallery/4-2.jpg"
+  thumbnail: "/img/gallery/4-1.jpg",
+  fullSize: "/img/gallery/4-2.jpg"
 }, {
   id: 5,
-  thumbnail: "/flashgas/img/gallery/5-1.jpg",
-  fullSize: "/flashgas/img/gallery/5-2.jpg"
+  thumbnail: "/img/gallery/5-1.jpg",
+  fullSize: "/img/gallery/5-2.jpg"
 }, {
   id: 6,
-  thumbnail: "/flashgas/img/gallery/6-1.jpg",
-  fullSize: "/flashgas/img/gallery/6-2.jpg"
+  thumbnail: "/img/gallery/6-1.jpg",
+  fullSize: "/img/gallery/6-2.jpg"
 }, {
   id: 7,
-  thumbnail: "/flashgas/img/gallery/7-1.jpg",
-  fullSize: "/flashgas/img/gallery/7-2.jpg"
+  thumbnail: "/img/gallery/7-1.jpg",
+  fullSize: "/img/gallery/7-2.jpg"
 }, {
   id: 8,
-  thumbnail: "/flashgas/img/gallery/8-1.jpg",
-  fullSize: "/flashgas/img/gallery/8-2.jpg"
+  thumbnail: "/img/gallery/8-1.jpg",
+  fullSize: "/img/gallery/8-2.jpg"
 }, {
   id: 9,
-  thumbnail: "/flashgas/img/gallery/9-1.jpg",
-  fullSize: "/flashgas/img/gallery/9-2.jpg"
+  thumbnail: "/img/gallery/9-1.jpg",
+  fullSize: "/img/gallery/9-2.jpg"
 }, {
   id: 10,
-  thumbnail: "/flashgas/img/gallery/10-1.jpg",
-  fullSize: "/flashgas/img/gallery/10-2.jpg"
+  thumbnail: "/img/gallery/10-1.jpg",
+  fullSize: "/img/gallery/10-2.jpg"
 }, {
   id: 11,
-  thumbnail: "/flashgas/img/gallery/11-1.jpg",
-  fullSize: "/flashgas/img/gallery/11-2.jpg"
+  thumbnail: "/img/gallery/11-1.jpg",
+  fullSize: "/img/gallery/11-2.jpg"
 }, {
   id: 12,
-  thumbnail: "/flashgas/img/gallery/12-1.jpg",
-  fullSize: "/flashgas/img/gallery/12-2.jpg"
+  thumbnail: "/img/gallery/12-1.jpg",
+  fullSize: "/img/gallery/12-2.jpg"
 }];
 
 var Gallery =
@@ -886,9 +856,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _PopUpBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PopUpBox */ "./client/components/PopUpBox.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form */ "./client/components/Form.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Form__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -899,17 +866,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 
 
@@ -925,12 +888,6 @@ function (_React$Component) {
     _classCallCheck(this, GalleryNav);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(GalleryNav).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "contactForm", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "./img/logo-number.png",
-      className: "formImage centerImg"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form__WEBPACK_IMPORTED_MODULE_3___default.a, null)));
-
     _this.state = {
       popUpContent: null
     };
@@ -950,8 +907,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "navBackground"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -972,14 +927,14 @@ function (_React$Component) {
         src: "./img/about.png",
         alt: "About logo",
         className: "navLogos"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: function onClick() {
-          return _this2.togglePopup(_this2.contactForm);
-        },
-        src: "./img/contact us.png",
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.jotform.com/form/210036267796864",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogos"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "navLogoPage"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/gallery-1.png",
         alt: "Gallery logo",
         className: "navLogoPage"
@@ -989,11 +944,7 @@ function (_React$Component) {
         src: "./img/testimonials.png",
         alt: "Testimonials logo",
         className: "navLogos"
-      })))), this.state.popUpContent !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopUpBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        togglePopup: function togglePopup() {
-          return _this2.togglePopup(null);
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.contactForm)));
+      })))));
     }
   }]);
 
@@ -1083,9 +1034,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _PopUpBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PopUpBox */ "./client/components/PopUpBox.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form */ "./client/components/Form.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Form__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1096,17 +1044,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 
 
@@ -1122,12 +1066,6 @@ function (_React$Component) {
     _classCallCheck(this, Nav);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Nav).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "contactForm", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "./img/logo-number.png",
-      className: "formImage centerImg"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form__WEBPACK_IMPORTED_MODULE_3___default.a, null)));
-
     _this.state = {
       popUpContent: null
     };
@@ -1147,8 +1085,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "navBackground"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1169,14 +1105,14 @@ function (_React$Component) {
         src: "./img/about.png",
         alt: "About logo",
         className: "navLogos"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: function onClick() {
-          return _this2.togglePopup(_this2.contactForm);
-        },
-        src: "./img/contact us.png",
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.jotform.com/form/210036267796864",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogos"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "navLogoPage"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/gallery.png",
@@ -1188,11 +1124,7 @@ function (_React$Component) {
         src: "./img/testimonials.png",
         alt: "Testimonials logo",
         className: "navLogos"
-      })))), this.state.popUpContent !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopUpBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        togglePopup: function togglePopup() {
-          return _this2.togglePopup(null);
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.contactForm)));
+      })))));
     }
   }]);
 
@@ -1524,9 +1456,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _PopUpBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PopUpBox */ "./client/components/PopUpBox.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form */ "./client/components/Form.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Form__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -1537,17 +1466,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 
 
@@ -1563,12 +1488,6 @@ function (_React$Component) {
     _classCallCheck(this, TestNav);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(TestNav).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "contactForm", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "./img/logo-number.png",
-      className: "formImage centerImg"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form__WEBPACK_IMPORTED_MODULE_3___default.a, null)));
-
     _this.state = {
       popUpContent: null
     };
@@ -1588,8 +1507,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "navBackground"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1610,14 +1527,14 @@ function (_React$Component) {
         src: "./img/about.png",
         alt: "About logo",
         className: "navLogos"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: function onClick() {
-          return _this2.togglePopup(_this2.contactForm);
-        },
-        src: "./img/contact us.png",
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.jotform.com/form/210036267796864",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogos"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        className: "navLogoPage"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/gallery.png",
@@ -1627,11 +1544,7 @@ function (_React$Component) {
         src: "./img/testimonials-1.png",
         alt: "Testimonials logo",
         className: "navLogoPage"
-      }))), this.state.popUpContent !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopUpBox__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        togglePopup: function togglePopup() {
-          return _this2.togglePopup(null);
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.contactForm)));
+      }))));
     }
   }]);
 
@@ -1748,10 +1661,9 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _PopUpBox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PopUpBox */ "./client/components/PopUpBox.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form */ "./client/components/Form.jsx");
-/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Form__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -1761,20 +1673,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
  // import { HashRouter as Router, Route } from 'react-router-dom';
-
-
-
 
 var Title =
 /*#__PURE__*/
@@ -1787,12 +1694,6 @@ function (_React$Component) {
     _classCallCheck(this, Title);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Title).call(this, props));
-
-    _defineProperty(_assertThisInitialized(_this), "contactForm", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "./img/logo-number.png",
-      className: "formImage centerImg"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Form__WEBPACK_IMPORTED_MODULE_2___default.a, null)));
-
     _this.state = {
       popUpContent: null
     };
@@ -1812,8 +1713,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "background"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1821,19 +1720,15 @@ function (_React$Component) {
         alt: "Main logo",
         id: "mainLogo",
         className: "centerImg"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        onClick: function onClick() {
-          return _this2.togglePopup(_this2.contactForm);
-        },
-        src: "./img/enquire.png",
-        alt: "Main logo",
-        id: "enquireLogo",
-        className: "centerImg enquireStyles"
-      })), this.state.popUpContent !== null && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopUpBox__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        togglePopup: function togglePopup() {
-          return _this2.togglePopup(null);
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.contactForm)));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.jotform.com/form/210036267796864",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", _defineProperty({
+        src: "./img/contact-1.png",
+        alt: "Contact logo",
+        className: "navLogoPage",
+        id: "enquireLogo"
+      }, "className", "centerImg enquireStyles")))));
     }
   }]);
 
@@ -30605,9 +30500,9 @@ function valueEqual(a, b) {
 /***/ }),
 
 /***/ "./node_modules/webpack/buildin/global.js":
-/*!************************************************!*\
-  !*** ./node_modules/webpack/buildin/global.js ***!
-  \************************************************/
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

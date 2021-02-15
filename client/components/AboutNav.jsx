@@ -34,14 +34,6 @@ class AboutNav extends React.Component {
             </div>
         )
     }
-    
-    contactForm = (
-        <div>
-            <img src="./img/logo-number.png" className="formImage centerImg" />
-            <Form />
-        </div>
-    )
-
 
 }
 export default AboutNav

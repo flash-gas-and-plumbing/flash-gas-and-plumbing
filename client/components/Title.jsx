@@ -25,20 +25,12 @@ class Title extends React.Component {
       <div className="background">
           <img src="./img/logo.png" alt="Main logo" id="mainLogo" className="centerImg"></img>
           <a href="https://www.jotform.com/form/210036267796864" target="_blank">
-                        <img src="./img/contact-1.png" alt="Contact logo" className="navLogoPage"></img>
+                        <img src="./img/contact-1.png" alt="Contact logo" className="navLogoPage"id="enquireLogo" className="centerImg enquireStyles" ></img>
                      </a>
       </div>
       </React.Fragment>
     )
   }
-
-  contactForm = (
-    <div>
-      <img src="./img/logo-number.png" className="formImage centerImg" />
-      <Form />
-    </div>
-  )
-
 
 }
 

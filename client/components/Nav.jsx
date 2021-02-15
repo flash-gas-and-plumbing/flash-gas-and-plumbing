@@ -35,13 +35,5 @@ class Nav extends React.Component {
         )
     }
 
-    contactForm = (
-        <div>
-                        <img src="./img/logo-number.png" className="formImage centerImg" />
-                        <Form />
-                    </div>
-    )
-
-
 }
 export default Nav
