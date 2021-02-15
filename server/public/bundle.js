@@ -796,38 +796,13 @@ function (_React$Component) {
       var _this$setState;
 
       this.setState((_this$setState = {}, _defineProperty(_this$setState, event.target.name, event.target.value), _defineProperty(_this$setState, event.target.email, event.target.value), _defineProperty(_this$setState, event.target.message, event.target.value), _this$setState));
-    } // recaptchaLoaded () {
-    //   console.log('capcha successfully loaded')
-    // }
-    // handleSubmit(event) {
-    //   event.preventDefault();
-    //   const data = {...this.state};
-    //   Axios.post("api/v1/sendMail", data)
-    //     {
-    //     alert("Thank you! We will be in touch shortly!")
-    //     }
-    // } else 
-    // {
-    //   alert("Please verify that you are a human!")
-    // }
-    // }
-    // verifyCallback(response) {
-    //   if (response) {
-    //     this.setState({
-    //       isVerified: true
-    //     })
-    //   }
-    // }
-
+    }
   }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "formContainer centerImg"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        onSubmit: this.handleSubmit,
-        method: "post"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
         className: "formTitles"

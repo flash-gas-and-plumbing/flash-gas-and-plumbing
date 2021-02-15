@@ -45,41 +45,13 @@ class Form extends React.Component {
 
 
 
-  // recaptchaLoaded () {
-  //   console.log('capcha successfully loaded')
-  // }
 
-
-  // handleSubmit(event) {
-  //   event.preventDefault();
-  //   const data = {...this.state};
-
-  //   Axios.post("api/v1/sendMail", data)
-  //     {
-  //     alert("Thank you! We will be in touch shortly!")
-  //     }
-
-    // } else 
-    // {
-    //   alert("Please verify that you are a human!")
-    // }
-    // }
-
-    // verifyCallback(response) {
-    //   if (response) {
-    //     this.setState({
-    //       isVerified: true
-    //     })
-
-    //   }
-
-  // }
 
   render() {
     return (
       <React.Fragment>
         <div className="formContainer centerImg">
-          <form onSubmit={this.handleSubmit} method="post">
+          <form>
             <div className='contact'>
               <h2 className="formTitles">YOUR FULL NAME</h2>
               <input
