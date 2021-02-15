@@ -1,9 +1,6 @@
 import React from 'react';
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
-import PopUpBox from './PopUpBox'
-import Form from './Form'
-
 class GalleryNav extends React.Component {
     constructor(props) {
         super(props)
@@ -34,15 +31,6 @@ class GalleryNav extends React.Component {
                     <Link to='/testimonials'><img src="./img/testimonials.png" alt="Testimonials logo" className="navLogos"></img></Link>
                     </div>
                 </div>
-                {this.state.popUpContent !== null && (
-                    <PopUpBox
-                        togglePopup={() => this.togglePopup(null)}
-                    >
-                        <div>
-                            {this.contactForm}
-                        </div>
-                    </PopUpBox>
-                )}
             </div>
         )
     }

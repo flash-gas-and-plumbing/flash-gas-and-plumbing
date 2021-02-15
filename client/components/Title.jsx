@@ -1,8 +1,6 @@
 import React from 'react'
 // import { HashRouter as Router, Route } from 'react-router-dom';
 
-import PopUpBox from './PopUpBox'
-import Form from './Form'
 
 class Title extends React.Component {
   constructor(props) {
@@ -26,18 +24,10 @@ class Title extends React.Component {
 
       <div className="background">
           <img src="./img/logo.png" alt="Main logo" id="mainLogo" className="centerImg"></img>
-          <img onClick={() => this.togglePopup(this.contactForm)} src="./img/enquire.png" alt="Main logo" id="enquireLogo" className="centerImg enquireStyles"></img>
+          <a href="https://www.jotform.com/form/210036267796864" target="_blank">
+                        <img src="./img/contact-1.png" alt="Contact logo" className="navLogoPage"></img>
+                     </a>
       </div>
-      {this.state.popUpContent !== null && (
-          <PopUpBox
-            togglePopup={() => this.togglePopup(null)} 
-          >
-            <div>
-          {this.contactForm}
-            </div>
-          </PopUpBox>
-        )}
-   
       </React.Fragment>
     )
   }
