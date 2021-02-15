@@ -253,7 +253,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogoPage"
+        className: "navLogos"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -933,7 +933,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogoPage"
+        className: "navLogos"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/gallery-1.png",
         alt: "Gallery logo",
@@ -1111,7 +1111,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogoPage"
+        className: "navLogos"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1533,7 +1533,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
         alt: "Contact logo",
-        className: "navLogoPage"
+        className: "navLogos"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/gallery"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
