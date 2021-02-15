@@ -50,14 +50,14 @@ class Form extends React.Component {
   // }
 
 
-  handleSubmit(event) {
-    event.preventDefault();
-    const data = {...this.state};
+  // handleSubmit(event) {
+  //   event.preventDefault();
+  //   const data = {...this.state};
 
-    Axios.post("api/v1/sendMail", data)
-      {
-      alert("Thank you! We will be in touch shortly!")
-      }
+  //   Axios.post("api/v1/sendMail", data)
+  //     {
+  //     alert("Thank you! We will be in touch shortly!")
+  //     }
 
     // } else 
     // {
@@ -73,7 +73,7 @@ class Form extends React.Component {
 
     //   }
 
-  }
+  // }
 
   render() {
     return (

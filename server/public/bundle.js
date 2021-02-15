@@ -799,29 +799,26 @@ function (_React$Component) {
     } // recaptchaLoaded () {
     //   console.log('capcha successfully loaded')
     // }
+    // handleSubmit(event) {
+    //   event.preventDefault();
+    //   const data = {...this.state};
+    //   Axios.post("api/v1/sendMail", data)
+    //     {
+    //     alert("Thank you! We will be in touch shortly!")
+    //     }
+    // } else 
+    // {
+    //   alert("Please verify that you are a human!")
+    // }
+    // }
+    // verifyCallback(response) {
+    //   if (response) {
+    //     this.setState({
+    //       isVerified: true
+    //     })
+    //   }
+    // }
 
-  }, {
-    key: "handleSubmit",
-    value: function handleSubmit(event) {
-      event.preventDefault();
-
-      var data = _objectSpread({}, this.state);
-
-      axios__WEBPACK_IMPORTED_MODULE_1___default.a.post("api/v1/sendMail", data);
-      {
-        alert("Thank you! We will be in touch shortly!");
-      } // } else 
-      // {
-      //   alert("Please verify that you are a human!")
-      // }
-      // }
-      // verifyCallback(response) {
-      //   if (response) {
-      //     this.setState({
-      //       isVerified: true
-      //     })
-      //   }
-    }
   }, {
     key: "render",
     value: function render() {
