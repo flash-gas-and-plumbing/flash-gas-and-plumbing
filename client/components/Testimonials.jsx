@@ -37,11 +37,8 @@ class Testimonials extends React.Component {
                     <div className="testText">Positive: Professionalism, Quality &amp; Responsiveness<br /><br />
                         "Cam gives great advice and easily explained. Highly recommended"<br /><br /> - <i>Steve Healy</i></div>
                     <div className="divider"></div>
-                    <div className="testText">Positive: Professionalism &amp; Quality
+                    <div className="testText">Positive: Professionalism &amp; Quality <br /><br />
                      "Very professional, friendly, explained the job process, eaisy to talk to, will call out for further jobs in the future."<br /><br /> - <i>Sheryll Lemon</i></div>
-                    <div className="divider"></div>
-                    <div className="testText">Positive: Professionalism, Punctuality, Quality, Responsiveness &amp; Value<br /><br />
-                        "Exceptional service and very professional. Highly recommend."<br /><br /> - <i>T Roberts</i></div>
                     <div className="divider"></div>
                     <div className="testText">Positive: Professionalism, Punctuality, Quality, Responsiveness &amp; Value<br /><br />
                         "Cam provides an exceptional service and he is very professional. I highly recommend. ;-D"<br /><br /> - <i>Dee Lansdown</i></div>

@@ -1682,11 +1682,7 @@ function (_React$Component) {
         className: "divider"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "testText"
-      }, "Positive: Professionalism & Quality \"Very professional, friendly, explained the job process, eaisy to talk to, will call out for further jobs in the future.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Sheryll Lemon")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "divider"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "testText"
-      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Exceptional service and very professional. Highly recommend.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "T Roberts")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Positive: Professionalism & Quality ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Very professional, friendly, explained the job process, eaisy to talk to, will call out for further jobs in the future.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Sheryll Lemon")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "divider"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "testText"
