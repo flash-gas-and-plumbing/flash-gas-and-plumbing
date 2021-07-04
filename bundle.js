@@ -711,7 +711,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
- // import { HashRouter as Router, Route } from 'react-router-dom';
 
 
 
@@ -764,6 +763,38 @@ var images = [{
   id: 12,
   thumbnail: "/img/gallery/12-1.jpg",
   fullSize: "/img/gallery/12-2.jpg"
+}, {
+  id: 13,
+  thumbnail: "/img/gallery/13-1.jpg",
+  fullSize: "/img/gallery/13-2.jpg"
+}, {
+  id: 14,
+  thumbnail: "/img/gallery/14-1.jpg",
+  fullSize: "/img/gallery/14-2.jpg"
+}, {
+  id: 15,
+  thumbnail: "/img/gallery/15-1.jpg",
+  fullSize: "/img/gallery/15-2.jpg"
+}, {
+  id: 16,
+  thumbnail: "/img/gallery/16-1.jpg",
+  fullSize: "/img/gallery/16-2.jpg"
+}, {
+  id: 17,
+  thumbnail: "/img/gallery/17-1.jpg",
+  fullSize: "/img/gallery/17-2.jpg"
+}, {
+  id: 18,
+  thumbnail: "/img/gallery/18-1.jpg",
+  fullSize: "/img/gallery/18-2.jpg"
+}, {
+  id: 19,
+  thumbnail: "/img/gallery/19-1.jpg",
+  fullSize: "/img/gallery/19-2.jpg"
+}, {
+  id: 20,
+  thumbnail: "/img/gallery/20-1.jpg",
+  fullSize: "/img/gallery/20-2.jpg"
 }];
 
 var Gallery =
@@ -1622,6 +1653,82 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "testTitle"
       }, "Here are what some of our clients say!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Exceptional service and very professional. Highly recommend.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Tanja Lendowsky")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Just had Cam come out to fix our burst hot water cylinder, super friendly, fast and efficient, great communication, will definitely recommend to anyone! Thanks Cam :)\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Makayla June")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Fabulous communication and service, a very pleasant young man. He put in a water filter and fixed our loo. Very happy to recommend. AAA rating\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Loretta McGregor")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Campbell came to our house and replaced our water cylinder after we were having a lot of trouble with it. He also gave us great advice with a blockage that was happening in the sink as well which help solved our issue. Professional, punctual and takes pride in getting the job done right.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Matthew Devonport")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Cam is a good  bloke and  does  a good tidy job will  use him again.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "David Brown")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Superb service. Would recommend to all and should I require further work, I'll be booking again.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Dave Richardson")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Quality & Responsiveness", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Cam gives great advice and easily explained. Highly recommended\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Steve Healy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism & Quality \"Very professional, friendly, explained the job process, eaisy to talk to, will call out for further jobs in the future.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Sheryll Lemon")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Exceptional service and very professional. Highly recommend.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "T Roberts")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Cam provides an exceptional service and he is very professional. I highly recommend. ;-D\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Dee Lansdown")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Cam saved the day!! He came to the rescue in a very short notice after 4pm to check a gas leak at the house I just moved in. He fixed the issue and showed me all that I should/need to know. Thank you so so much for the great service! I highly recommend Flash Gas and Plumbing services.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Erica Guido")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Campbell replaced the Hot Water Cylinder in my rental property. He was efficient and communicated well with me by ringing me when the job was completed and took away the old cylinder for me and sent me photos of the new one to me. Very pleased with the job, Thank you.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Annette Clifford")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Cam installed gas hot water for us - what a pleasure working with someone who communicates well and on a regular basis! He turned up when he said he was and completed the work efficiently and very tidily as well!! He was very responsive to additional jobs being thrown in at the last minute. Have already recommended him to others!\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Shayne & Jillian Ryder")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "Positive: Professionalism, Punctuality, Quality, Responsiveness & Value", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\"Amazing communication Does Perfect job very Happy with Work done will use again for any plumbing work.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Nathan Makris")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Cam shows up when he says he does with excellent workmanship.  He installed a new gas califont, fitted a new vanity and a toilet all at the price quoted. Would 100% use him again.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Nicholas Cutfield")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Cam replaced an old leaking hot water cylinder at my place in January 2021. He was punctual, efficient and conscientious. I would not hesitate to recommend him to anyone looking for a professional trades-person.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "TeAute ICT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Needed a new hot water cylinder in a hurry and Campbell was here in a flash and installed a new one we were very happy with his service and also impressed with the after job contact.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Bob Strong")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Cam the company owner traveled to complete our filter and water softener systm. This was all completed in one trip, very efficient. We were especially impressed how tidy the all the pipe work is :) Cam also gave us all some training on how it all works. Couldn't recommend \"Flash\" more for this type of whole house filter system. Thank you very much.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Kiel Mans")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "testText"
+      }, "\"Cam changed us over from low pressure hot water to an out door mains pressure water system. The whole process was made easy with great communication from Cam discussing our options for the space we had and working out our best option. High quality workmanship and completed on time with great service.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Would recommend to anyone and will use again in the future!\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Owen Ashton")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "divider"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "testText"
       }, "\"Had our old hot water cylinder die on us recently. Flash gas and plumbing came out, installed new cylinder but unfortunately the pipes under the house were not up to the task. So an infinity gas water system was installed. Wow what a difference, pressure is out of this world. Big ups to Cam, was a nightmare job but he was equal to the task.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Highly recommend to anyone.\"", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " - ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Andrew Gunn")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "divider"
