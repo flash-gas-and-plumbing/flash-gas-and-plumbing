@@ -18,6 +18,14 @@ const images = [
     { id: 10, thumbnail: "/img/gallery/10-1.jpg" ,fullSize: "/img/gallery/10-2.jpg" },
     { id: 11, thumbnail: "/img/gallery/11-1.jpg" ,fullSize: "/img/gallery/11-2.jpg" },
     { id: 12, thumbnail: "/img/gallery/12-1.jpg" ,fullSize: "/img/gallery/12-2.jpg" },
+    { id: 13, thumbnail: "/img/gallery/13-1.jpg" ,fullSize: "/img/gallery/13-2.jpg" },
+    { id: 14, thumbnail: "/img/gallery/14-1.jpg" ,fullSize: "/img/gallery/14-2.jpg" },
+    { id: 15, thumbnail: "/img/gallery/15-1.jpg" ,fullSize: "/img/gallery/15-2.jpg" },
+    { id: 16, thumbnail: "/img/gallery/16-1.jpg" ,fullSize: "/img/gallery/16-2.jpg" },
+    { id: 17, thumbnail: "/img/gallery/17-1.jpg" ,fullSize: "/img/gallery/17-2.jpg" },
+    { id: 18, thumbnail: "/img/gallery/18-1.jpg" ,fullSize: "/img/gallery/18-2.jpg" },
+    { id: 19, thumbnail: "/img/gallery/19-1.jpg" ,fullSize: "/img/gallery/19-2.jpg" },
+    { id: 20, thumbnail: "/img/gallery/20-1.jpg" ,fullSize: "/img/gallery/20-2.jpg" },
 ]
 
 class Gallery extends React.Component {
