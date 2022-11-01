@@ -9,8 +9,6 @@ import Footer from './Footer'
 
 class Home extends React.Component {
 
-    console.log('made it')
-
     render() {
         return (
             <React.Fragment> 
