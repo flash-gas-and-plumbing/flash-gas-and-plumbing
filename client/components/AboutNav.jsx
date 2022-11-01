@@ -15,6 +15,9 @@ class AboutNav extends React.Component {
         }))
     }
 
+
+console.log('made it again')
+
     render() {
         return (
             <div id="navBackground">
