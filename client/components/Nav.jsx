@@ -24,7 +24,7 @@ class Nav extends React.Component {
                 <div className="flexBox">
                     <div className="fixed">
                         <Link to='/about'><img src="./img/about.png" alt="About logo" className="navLogos"></img></Link>
-                                                <a href="https://form.jotform.com/223030982810045" target="_blank">
+                                                <a href="https://form.jotform.com/210036267796864" target="_blank">
                         <img src="./img/contact-1.png" alt="Contact logo" className="navLogos"></img>
                         </a>
                                 <Link to='/gallery'><img src="./img/gallery.png" alt="Gallery logo" className="navLogos"></img></Link>

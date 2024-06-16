@@ -24,7 +24,7 @@ class Title extends React.Component {
 
       <div className="background">
           <img src="./img/logo.png" alt="Main logo" id="mainLogo" className="centerImg"></img>
-          <a href="https://form.jotform.com/223030982810045" target="_blank">
+          <a href="https://form.jotform.com/210036267796864" target="_blank">
                         <img src="./img/contact-1.png" alt="Contact logo" className="navLogoPage"id="enquireLogo" className="centerImg enquireStyles" ></img>
                      </a>
       </div>

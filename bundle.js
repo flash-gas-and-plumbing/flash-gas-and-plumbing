@@ -221,7 +221,7 @@ var AboutNav = /*#__PURE__*/function (_React$Component) {
         alt: "About logo",
         className: "navLogoPage"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://form.jotform.com/223030982810045",
+        href: "https://form.jotform.com/210036267796864",
         target: "_blank"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
@@ -832,7 +832,7 @@ var GalleryNav = /*#__PURE__*/function (_React$Component) {
         alt: "About logo",
         className: "navLogos"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://form.jotform.com/223030982810045",
+        href: "https://form.jotform.com/210036267796864",
         target: "_blank"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
@@ -982,7 +982,7 @@ var Nav = /*#__PURE__*/function (_React$Component) {
         alt: "About logo",
         className: "navLogos"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://form.jotform.com/223030982810045",
+        href: "https://form.jotform.com/210036267796864",
         target: "_blank"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
@@ -1558,7 +1558,7 @@ var Title = /*#__PURE__*/function (_React$Component) {
         id: "mainLogo",
         className: "centerImg"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://form.jotform.com/223030982810045",
+        href: "https://form.jotform.com/210036267796864",
         target: "_blank"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", _defineProperty({
         src: "./img/contact-1.png",
