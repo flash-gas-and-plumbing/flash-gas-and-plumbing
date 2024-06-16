@@ -17,8 +17,6 @@ class Testimonials extends React.Component {
                 </div>
                 <div id="testArea">
                     <h1 className="testTitle">Here are what some of our clients say!</h1>
-                    <div className="testText">"Exceptional service and very professional. Highly recommend."<br /><br /> - <i>Tanja Lendowsky</i></div>
-                    <div className="divider"></div>
                     <div className="testText">"Just had Cam come out to fix our burst hot water cylinder, super friendly, fast and efficient, great communication, will definitely recommend to anyone!
                      Thanks Cam :)"<br /><br /> - <i>Makayla June</i></div>
                     <div className="divider"></div>
