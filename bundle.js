@@ -1325,7 +1325,7 @@ var TestNav = /*#__PURE__*/function (_React$Component) {
         alt: "About logo",
         className: "navLogos"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.jotform.com/form/210036267796864",
+        href: "https://form.jotform.com/210036267796864",
         target: "_blank"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "./img/contact-1.png",
